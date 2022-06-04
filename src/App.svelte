@@ -1,10 +1,11 @@
 <script>
   import Counter from './lib/Counter.svelte'
 </script>
-
 <main>
+  
   <img src='assets/logoLNnoBG.png' alt="Svelte Logo" />
   <h1>Lumbung Nusantara</h1>
+  
 
   <Counter />
 
@@ -29,6 +30,11 @@
     text-align: center;
     padding: 1em;
     margin: 0 auto;
+    background-image: url("/assets/slider3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: fixed;
+
   }
 
   img {
@@ -60,5 +66,7 @@
     p {
       max-width: none;
     }
-  }
+    
+}
+
 </style>
