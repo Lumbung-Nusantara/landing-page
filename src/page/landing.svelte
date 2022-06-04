@@ -27,7 +27,7 @@
   main {
     text-align: center;
     margin: 0 auto;
-    background-image: url("/assets/slider3.jpg");
+    background-image: url("/assets/slider1.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: fixed;
