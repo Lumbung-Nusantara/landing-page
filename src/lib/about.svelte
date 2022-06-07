@@ -1,47 +1,46 @@
-<script>
-    import Navbar from '../lib/navbar.svelte';
-  </script>
-  
-  <main>
-    <Navbar />
+<div class="container py-5">
+  <div class="row py-5">
+    <div class="col">
+      <img src="assets/organic.png" alt="organic product">
+    </div>
+    <div class="col py-4">
+      <h1 class="text-start fw-bolder">Selamat Datang di Lumbung Nusantara</h1>
+      <h5 class="text-start my-4">WITH LOVE & DEDICATION</h5>
+      <p class="font-secondary text-muted text-start">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <button type="button" class="btn fw-bolder fs-smaller my-4">READ MORE</button>
+    </div>
+  </div>
+</div>
 
-      
-  </main>
-  
-  <style>
-    :root {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-  
-    main {
-      text-align: center;
-      margin: 0 auto;
-      background-image: url("/assets/bg15.jpg");
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      background-position: fixed;
-    }
-  
-    img {
-      height: 16rem;
-      width: 16rem;
-    }
+<style>
+  img{
+    width: 100%;
+  }
 
-  
-    p {
-      max-width: 14rem;
-      margin: 1rem auto;
-      line-height: 1.35;
-    }
-  
-    @media (min-width: 480px) {
-      h1 {
-        max-width: none;
-      }
-  
-      p {
-        max-width: none;
-      }
-    }
-  </style>
+  h1{
+    font-size: 3.6rem;
+    line-height: 1.4;
+  }
+
+  h5{
+    letter-spacing: 2px;
+    color: #FAB522;
+  }
+
+  p {
+    margin: 0rem 0;
+    letter-spacing: 1px;
+    line-height: 1.35;
+  }
+
+  .btn{
+    color: white;
+    background-color: #FAB522;
+    padding: 1rem 2rem;
+    border-radius: 0 2rem 2rem 2rem;
+  }
+</style>

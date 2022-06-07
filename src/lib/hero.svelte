@@ -5,18 +5,20 @@
 <div class="bg-hero pb-5">
     <Navbar />
     <div class="container py-5">
-        <div class="row mt-5">
-          <div class="col-10 align-self-center">
+        <div class="row">
+          <div class="col-8 align-self-center">
             <h1 class="text-start">Organic Food is Good for Health</h1>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-6 align-self-start">
+        <div class="row">
+          <div class="col-6">
             <p class="font-secondary text-start">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
+
+            <button type="button" class="btn btn-hero fw-bolder fs-smaller my-4">LEARN MORE</button>
           </div>
         </div>
     </div>
@@ -24,8 +26,8 @@
 
 <style>
     h1 {
-        font-size: 5rem;
-        font-weight: 400;
+        font-size: 6rem;
+        font-weight: 500;
         line-height: 1.4;
     }
 
@@ -42,5 +44,13 @@
         background-repeat: no-repeat;
         background-size: 110% auto;
         background-position: fixed;
+    }
+
+    .btn-hero{
+        color: white;
+        background-color: #064635;
+        padding: 1rem 2rem;
+        border-radius: 0 2rem 2rem 2rem;
+        float: left;
     }
 </style>
