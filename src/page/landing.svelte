@@ -1,5 +1,6 @@
 <script>
   import Navbar from '../lib/navbar.svelte';
+  import About from '../lib/about.svelte';
 </script>
 
 <main>
@@ -16,6 +17,7 @@
       Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
       the officially supported framework, also powered by Vite!
     </p>
+    <About/>
 </main>
 
 <style>

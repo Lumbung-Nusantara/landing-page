@@ -18,10 +18,10 @@
 			<a class="nav-link" href="/#">About</a>
 		  </li>
 		  <li class="nav-item px-2">
-			<a class="nav-link" href="/#">Blog</a>
+			<a class="nav-link" href="/#">Contact</a>
 		  </li>
 		  <li class="nav-item px-2">
-			<a class="nav-link" href="/#">Contact</a>
+			<a class="nav-link" href="/#">Blogs</a>
 		  </li>
 		</ul>
 	  </div>
