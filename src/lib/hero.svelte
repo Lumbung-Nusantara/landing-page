@@ -4,9 +4,9 @@
 
 <div class="bg-hero pb-5">
     <Navbar />
-    <div class="container py-5">
+    <div class="container py-4">
         <div class="row mt-5">
-          <div class="col-10 align-self-center">
+          <div class="col-8 align-self-center">
             <h1 class="text-start">Organic Food is Good for Health</h1>
           </div>
         </div>
@@ -24,8 +24,8 @@
 
 <style>
     h1 {
-        font-size: 5rem;
-        font-weight: 400;
+        font-size: 6rem;
+        font-weight: 500;
         line-height: 1.4;
     }
 
