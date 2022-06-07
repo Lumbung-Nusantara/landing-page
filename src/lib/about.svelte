@@ -1,4 +1,4 @@
-<div class="container py-5">
+<div class="container py-5" id="about">
   <div class="row py-5">
     <div class="col">
       <img src="assets/organic.png" alt="organic product">
@@ -7,11 +7,9 @@
       <h1 class="text-start fw-bolder">Selamat Datang di Lumbung Nusantara</h1>
       <h5 class="text-start my-4">WITH LOVE & DEDICATION</h5>
       <p class="font-secondary text-muted text-start">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lumbung Nusantara merupakan pioner dari sistem verifikasi dan monitoring supply chain modern berbasis blockchain Cardano yang dapat menjamin keaslian mutu produk organik favorit anda.
       </p>
-      <button type="button" class="btn fw-bolder fs-smaller my-4">READ MORE</button>
+      <button type="button" class="btn fw-bolder fs-smaller my-4">Yuk, Cari Tahu !</button>
     </div>
   </div>
 </div>

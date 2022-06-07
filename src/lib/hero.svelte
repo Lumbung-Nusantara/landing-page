@@ -7,15 +7,13 @@
     <div class="container py-5">
         <div class="row">
           <div class="col-8 align-self-center">
-            <h1 class="text-start">Organic Food is Good for Health</h1>
+            <h1 class="text-start">Organik tidak harus mahal</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-6">
             <p class="font-secondary text-start">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Dapatkan jaminan kualitas makanan organik terpercaya dengan verifikasi oleh teknologi blockchain Cardano.
             </p>
 
             <button type="button" class="btn btn-hero fw-bolder fs-smaller my-4">LEARN MORE</button>
