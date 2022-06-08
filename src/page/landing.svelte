@@ -4,6 +4,7 @@
   import About from '../lib/about.svelte';
   import Blog from '../lib/blog.svelte';
   import Contact from '../lib/contact.svelte';
+  import Footer from '../lib/footer.svelte';
 </script>
 
 <main>
@@ -12,4 +13,5 @@
   <About />
   <Blog />
   <Contact />
+  <Footer/>
 </main>
