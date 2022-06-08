@@ -1,9 +1,9 @@
 <div class="container py-5">
   <div class="row py-5">
     <div class="col">
-      <img src="assets/organic.png" alt="organic product">
+      <img src="assets/about.png" alt="organic product">
     </div>
-    <div class="col py-4">
+    <div class="col py-5">
       <h1 class="text-start fw-bolder">Selamat Datang di Lumbung Nusantara</h1>
       <h5 class="text-start my-4">WITH LOVE & DEDICATION</h5>
       <p class="font-secondary text-muted text-start">
@@ -18,7 +18,7 @@
 
 <style>
   img{
-    width: 100%;
+    width: 80%;
   }
 
   h1{
