@@ -26,7 +26,7 @@
     h1 {
         font-size: 6rem;
         font-weight: 500;
-        line-height: 1.4;
+        line-height: 1.2;
     }
 
     p {
