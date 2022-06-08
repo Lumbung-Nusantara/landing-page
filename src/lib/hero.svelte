@@ -7,7 +7,7 @@
     <div class="container py-5">
         <div class="row">
           <div class="col-8 align-self-center">
-            <h1 class="text-start">Organik tidak harus mahal</h1>
+            <h1 class="text-start">Organik tidak harus mahal.</h1>
           </div>
         </div>
         <div class="row">
