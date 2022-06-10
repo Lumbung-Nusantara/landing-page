@@ -2,20 +2,7 @@
     import { UserIcon, CalendarIcon} from 'svelte-feather-icons'
 </script>
   
-<div class="container bg-green py-5">
-    <div class="leaf">
-        <img src="assets/leaf3.png" alt="">
-    </div>
-
-    <div class="leaf2">
-        <img src="assets/leaf4.png" alt="">
-    </div>
-
-    <h1 class="text-center text-orange">Lumbung Nusantara Blog</h1>
-    <p class="font-secondary text-white text-center w-80">
-        Lumbung Nusantara merupakan pioner dari sistem verifikasi dan monitoring supply chain modern berbasis blockchain Cardano yang dapat menjamin keaslian mutu produk organik favorit anda.
-    </p>
-
+<div class="container py-5">
     <div class="row p-5">
         <div class="col">
             <div class="card">
@@ -102,36 +89,6 @@
         position: relative;
     }
 
-    .leaf{
-        position: absolute;
-        left: 20px;
-        top: 0;
-        animation: up-down infinite 4s linear;
-    }
-
-    .leaf2{
-        position: absolute;
-        right: 90px;
-        top: 0;
-        animation: up-down infinite 4s linear;
-    }
-
-    h1{
-        font-size: 4rem;
-        color: white;
-        font-weight: 900;
-    }
-
-    .w-80{
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .text-orange{
-        color: #FAB522;
-    }
-
     a{
         text-decoration: none;
         color: black;
@@ -149,21 +106,6 @@
 
     .card{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    }
-
-    @keyframes up-down{
-        0% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
-        }
-        50% {
-            -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
-        }
-        100% {
-            -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-        }
     }
     
 </style>
