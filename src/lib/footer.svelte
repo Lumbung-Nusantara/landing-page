@@ -1,7 +1,4 @@
-<div class="container py-5" id="footer"></div>
-<div class="row py-5"></div>    
-    <!-- <div class="col"> -->
-<div class="footer-area pt-200" style="background-image: url(&quot;img/bg/bg6.jpg&quot;); user-select: auto;">
+<div class="footer-area pt-200" style="user-select: auto;">
     <div class="container" style="user-select: auto;">
         <div class="footer-bg pb-50" style="user-select: auto;">
             <div class="row" style="user-select: auto;">
@@ -14,11 +11,11 @@
                             <p style="user-select: auto;">Lorem ipsum dolor amet cons adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         </div>
                         <div class="footer-icon" style="user-select: auto;">
-                           <a href="#" style="user-select: auto;"><i class="fab fa-facebook-f" style="user-select: auto;"></i></a>
-                           <a href="#" style="user-select: auto;"><i class="fab fa-twitter" style="user-select: auto;"></i></a>
-                           <a href="#" style="user-select: auto;"><i class="fab fa-linkedin" style="user-select: auto;"></i></a>
-                           <a href="#" style="user-select: auto;"><i class="fab fa-youtube" style="user-select: auto;"></i></a>
-                           <a href="#" style="user-select: auto;"><i class="fab fa-behance" style="user-select: auto;"></i></a>
+                           <a href="/#" style="user-select: auto;"><i class="fab fa-facebook-f" style="user-select: auto;"></i></a>
+                           <a href="/#" style="user-select: auto;"><i class="fab fa-twitter" style="user-select: auto;"></i></a>
+                           <a href="/#" style="user-select: auto;"><i class="fab fa-linkedin" style="user-select: auto;"></i></a>
+                           <a href="/#" style="user-select: auto;"><i class="fab fa-youtube" style="user-select: auto;"></i></a>
+                           <a href="/#" style="user-select: auto;"><i class="fab fa-behance" style="user-select: auto;"></i></a>
                        </div>
                     </div>
                 </div>
@@ -29,12 +26,12 @@
                             <img src="img/shape/f.png" alt="" style="user-select: auto;">
                         </div>
                         <ul class="fotter-menu" style="user-select: auto;">
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Help and Ordering</a></li>
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Privacy Policy</a></li>
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Return &amp; Cancellation</a></li>
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Delevery Schedule</a></li>
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Get a Call</a></li>
-                            <li style="user-select: auto;"><a href="#" style="user-select: auto;">Online Enquiry</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Help and Ordering</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Privacy Policy</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Return &amp; Cancellation</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Delevery Schedule</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Get a Call</a></li>
+                            <li style="user-select: auto;"><a href="/#" style="user-select: auto;">Online Enquiry</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +71,7 @@
             <div class="row" style="user-select: auto;">
                 <div class="col-xl-12" style="user-select: auto;">
                     <div class="copyright text-center" style="user-select: auto;">
-                        <p style="user-select: auto;">Copyright <i class="far fa-copyright" style="user-select: auto;"></i> 2019 <a href="#" style="user-select: auto;">BDevs</a>. All Rights Reserved</p>
+                        <p style="user-select: auto;">Copyright <i class="far fa-copyright" style="user-select: auto;"></i> 2019 <a href="/#" style="user-select: auto;">BDevs</a>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
