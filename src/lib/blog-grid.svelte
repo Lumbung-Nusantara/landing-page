@@ -1,12 +1,15 @@
 <script>
     import { UserIcon, CalendarIcon} from 'svelte-feather-icons'
+
+    let ii = [1, 2, 3]
 </script>
   
 <div class="container py-5">
+    {#each ii as i}
     <div class="row p-5">
         <div class="col">
             <div class="card">
-                <img src="https://source.unsplash.com/1500x900/?vegetable" class="card-img-top" alt="Blog Media">
+                <img src="https://source.unsplash.com/1500x900/?vegetables" class="card-img-top" alt="Blog Media">
                 <div class="font-secondary card-body py-4">
                     <a href="/" class="card-title text-uppercase">
                         Lumbung Nusantara merupakan pioner dari sistem verifikasi
@@ -31,7 +34,7 @@
         </div>
         <div class="col">
             <div class="card">
-                <img src="https://source.unsplash.com/500x300/?fruit" class="card-img-top" alt="Blog Media">
+                <img src="https://source.unsplash.com/500x300/?fruits" class="card-img-top" alt="Blog Media">
                 <div class="font-secondary card-body py-4">
                     <a href="/" class="card-title text-uppercase">
                         Lumbung Nusantara merupakan pioner dari sistem verifikasi
@@ -80,6 +83,7 @@
             </div>
         </div>
     </div>
+    {/each}
 </div>
 
 <style>
@@ -105,7 +109,7 @@
     }
 
     .card{
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
     
 </style>
