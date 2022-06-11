@@ -1,6 +1,34 @@
+<script>
+  import SvelteMarkdown from 'svelte-markdown';
+  import { onMount } from "svelte";
+  
+  export let id;
+
+  let blog;
+  onMount(async function () {
+      const response = await fetch("http://localhost:1337/api/blogs/" + id);
+      const res = await response.json();
+      blog = res.data;
+  });
+
+</script>
+
 <section>
   <img src="https://source.unsplash.com/1500x900/?vegetable" class="card-img-top" alt="Blog Media">
+  {#if blog}
   <div class="container">
+    <p class="text-center fw-bolder text-uppercase py-4">
+      <span>Trisha Mediana</span>
+      <span class="px-4">||</span>
+      <span>{blog.attributes.createdAt}</span>
+    </p>
+    <h1 class="">
+      {blog.attributes.title}
+    </h1>
+    <SvelteMarkdown source={blog.attributes.content}/>
+  </div>
+  {/if}
+  <!-- <div class="container">
     <p class="text-center fw-bolder text-uppercase py-4">
       <span>Trisha Mediana</span>
       <span class="px-4">||</span>
@@ -34,7 +62,7 @@
       Itaque earum rerum hic tenetur a sapiente delectus, 
       ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
     </p>
-  </div>
+  </div> -->
 </section>
 
 <style>
