@@ -7,7 +7,7 @@
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <a class="navbar-brand" href="/">
-		<img src="assets\logo.png" alt="" width="68" height="48">
+		<img src="http://localhost:3000/assets/logo.png" alt="" width="68" height="48">
 	  </a>
 	  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 		<ul class="navbar-nav fw-bolder fs-smaller mx-auto mb-2 mb-lg-0">

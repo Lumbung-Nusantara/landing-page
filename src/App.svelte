@@ -12,7 +12,7 @@
   <Router {url}>
     <Route path="/" component={Landing} />
     <Route path="blogs" component={Blogs} />
-    <!-- <Route path="blog:id" component={Blog} /> -->
-    <Route path="blog" component={Blog} />
+    <Route path="blog/:id" component={Blog} />
+    <!-- <Route path="blog" component={Blog} /> -->
   </Router>
 </body>

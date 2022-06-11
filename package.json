@@ -15,6 +15,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "svelte-markdown": "^0.2.2",
     "svelte-routing": "^1.6.0"
   }
 }
