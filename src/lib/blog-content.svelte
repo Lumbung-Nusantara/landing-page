@@ -21,7 +21,7 @@
     <p class="text-center fw-bolder text-uppercase py-4">
       <span>Trisha Mediana</span>
       <span class="px-4">||</span>
-      <span>{blog.attributes.createdAt}</span>
+      <span>{new Date(blog.attributes.createdAt).toDateString()}</span>
     </p>
     <h1 class="">
       {blog.attributes.title}

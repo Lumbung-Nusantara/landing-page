@@ -32,7 +32,7 @@
                         <div class="col">
                             <span class="fs-smaller">
                                 <CalendarIcon size={"1.2x"}/>
-                                {blog.attributes.createdAt}
+                                {new Date(blog.attributes.createdAt).toDateString()}
                             </span>
                         </div>
                     </div>
