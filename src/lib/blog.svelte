@@ -129,6 +129,10 @@
             </div>
         </div> -->
     </div>
+    
+    <center>
+        <a href="/blogs" class="btn fw-bolder fs-smaller my-4">LIHAT BLOG LAINNYA</a>
+    </center>
 </div>
 
 <style>
@@ -185,6 +189,13 @@
 
     .card{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .btn{
+        color: white;
+        background-color: #064635;
+        padding: 1rem 3rem;
+        border-radius: 0 2rem 2rem 2rem;
     }
 
     @keyframes up-down{

@@ -12,7 +12,7 @@
 	  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 		<ul class="navbar-nav fw-bolder fs-smaller mx-auto mb-2 mb-lg-0">
 		  <li class="nav-item px-2">
-			<a class="nav-link active" aria-current="page" href="/#">Home</a>
+			<a class="nav-link active" aria-current="page" href="/">Home</a>
 		  </li>
 		  <li class="nav-item px-2">
 			<a class="nav-link" href="#about">About</a>
@@ -21,7 +21,7 @@
 			<a class="nav-link" href="#contact">Contact</a>
 		  </li>
 		  <li class="nav-item px-2">
-			<a class="nav-link" href="/#">Blogs</a>
+			<a class="nav-link" href="#blog">Blogs</a>
 		  </li>
 		</ul>
 	  </div>
