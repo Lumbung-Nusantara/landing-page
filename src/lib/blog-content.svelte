@@ -6,7 +6,7 @@
 
   let blog;
   onMount(async function () {
-      const response = await fetch("http://localhost:1337/api/blogs/" + id);
+      const response = await fetch("http://localhost:1337/api/blogs/" + id + "?populate=*");
       const res = await response.json();
       blog = res.data;
   });
@@ -14,13 +14,14 @@
 </script>
 
 <section>
-  <img src="https://source.unsplash.com/1500x900/?vegetable" class="card-img-top" alt="Blog Media">
+  <!-- <img src="https://source.unsplash.com/1500x900/?vegetable" class="card-img-top" alt="Blog Media"> -->
   {#if blog}
+  <img src={`http://localhost:1337${blog.attributes.cover.data.attributes.url}`} class="card-img-top" alt="Blog Media">
   <div class="container">
     <p class="text-center fw-bolder text-uppercase py-4">
       <span>Trisha Mediana</span>
       <span class="px-4">||</span>
-      <span>{blog.attributes.createdAt}</span>
+      <span>{new Date(blog.attributes.createdAt).toDateString()}</span>
     </p>
     <h1 class="">
       {blog.attributes.title}

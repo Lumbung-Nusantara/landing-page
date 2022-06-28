@@ -2,7 +2,7 @@
   import { PhoneIcon, MailIcon, LinkedinIcon} from 'svelte-feather-icons';
 </script>
 
-<div class="container p-5">
+<div class="container p-5" id="contact">
   <h1 class="text-center">Contact Our Teams</h1>
   <p class="font-secondary text-center w-80">
     Hubungi kami dengan kontak-kontak dibawah ini 

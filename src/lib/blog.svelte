@@ -4,13 +4,13 @@
 
     let blogs = [];
     onMount(async function () {
-        const response = await fetch("http://localhost:1337/api/blogs/");
+        const response = await fetch("http://localhost:1337/api/blogs?populate=*");
         const res = await response.json();
         blogs = res.data.slice(0,3);
     });
 </script>
   
-<div class="container bg-green py-5">
+<div class="container bg-green py-5" id="blog">
     <div class="leaf">
         <img src="assets/leaf3.png" alt="">
     </div>
@@ -28,7 +28,8 @@
         {#each blogs as blog}
         <div class="col">
             <div class="card">
-                <img src="https://source.unsplash.com/1000x600/?vegetables" class="card-img-top" alt="Blog Media">
+                <!-- <img src="https://source.unsplash.com/1000x600/?vegetables" class="card-img-top" alt="Blog Media"> -->
+                <img src={`http://localhost:1337${blog.attributes.cover.data.attributes.url}`} class="card-img-top" alt="Blog Media">
                 <div class="font-secondary card-body py-4">
                     <a href={'http://localhost:3000/blog/' + blog.id} class="card-title text-uppercase">
                         {blog.attributes.title}
@@ -44,7 +45,7 @@
                         <div class="col">
                             <span class="fs-smaller">
                                 <CalendarIcon size={"1.2x"}/>
-                                {blog.attributes.createdAt}
+                                {new Date(blog.attributes.createdAt).toDateString()}
                             </span>
                         </div>
                     </div>
@@ -128,6 +129,10 @@
             </div>
         </div> -->
     </div>
+    
+    <center>
+        <a href="/blogs" class="btn fw-bolder fs-smaller my-4">LIHAT BLOG LAINNYA</a>
+    </center>
 </div>
 
 <style>
@@ -184,6 +189,14 @@
 
     .card{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .btn{
+        letter-spacing: 2px;
+        color: white;
+        background-color: #064635;
+        padding: 1rem 3rem;
+        border-radius: 0 2rem 2rem 2rem;
     }
 
     @keyframes up-down{

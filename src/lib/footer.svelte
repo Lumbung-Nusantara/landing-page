@@ -1,4 +1,65 @@
-<div class="footer-area pt-200" style="user-select: auto;">
+<script>
+    import { MapPinIcon, MailIcon, PhoneIcon, InstagramIcon, LinkedinIcon, YoutubeIcon, FacebookIcon} from 'svelte-feather-icons';
+</script>
+
+<div class="container px-5 pt-5">
+    <div class="row mb-5">
+        <div class="col-4 px-5">
+            <img src="http://localhost:3000/assets/logo.png" alt="logo" class="logo mx-auto mb-4 d-block">
+            <p>
+                Lorem ipsum dolor amet cons adipisicing elit sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+        </div>
+        <div class="col-4 px-5">
+            <h4><b>Contact Info</b></h4>
+            <ul class="px-0">
+                <li class="my-3">
+                    <MapPinIcon size={"1.2x"}/>
+                    <span>Indonesia</span>
+                </li>
+                <li class="my-3">
+                    <MailIcon size={"1.2x"}/>
+                    <span>lumbungnusantara@gmail.com</span>
+                </li>
+                <li class="my-3">
+                    <PhoneIcon size={"1.2x"}/>
+                    <span>+62 123456789</span>
+                </li>
+            </ul>
+        </div>
+        <div class="col-4 px-5">
+            <InstagramIcon class="mx-3"/>
+            <LinkedinIcon class="mx-3"/>
+            <YoutubeIcon class="mx-3"/>
+            <FacebookIcon class="mx-3"/>
+        </div>
+    </div>
+    <center class="py-2">
+        <span>
+            Copyright &copy; 2022 Lumbung Nusantara.
+        </span>
+    </center>
+</div>
+
+<style>
+    .container{
+        max-width: none;
+        position: relative;
+        background-color: #fab622cc;
+    }
+
+    .logo{
+        max-width: 50%;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+</style>
+
+<!-- <div class="footer-area pt-200" style="user-select: auto;">
     <div class="container" style="user-select: auto;">
         <div class="footer-bg pb-50" style="user-select: auto;">
             <div class="row" style="user-select: auto;">
@@ -77,4 +138,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
