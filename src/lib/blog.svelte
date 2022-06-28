@@ -10,7 +10,7 @@
     });
 </script>
   
-<div class="container bg-green py-5">
+<div class="container bg-green py-5" id="blog">
     <div class="leaf">
         <img src="assets/leaf3.png" alt="">
     </div>
