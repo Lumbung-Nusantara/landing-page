@@ -9,7 +9,7 @@
       <p class="font-secondary text-muted text-start">
         Lumbung Nusantara merupakan pioner dari sistem verifikasi dan monitoring supply chain modern berbasis blockchain Cardano yang dapat menjamin keaslian mutu produk organik favorit anda.
       </p>
-      <button type="button" class="btn fw-bolder fs-smaller my-4">Yuk, Cari Tahu !</button>
+      <button type="button" class="btn fw-bolder fs-smaller my-4">YUK, CARI TAHU!</button>
     </div>
   </div>
 </div>
@@ -36,6 +36,7 @@
   }
 
   .btn{
+    letter-spacing: 2px;
     color: white;
     background-color: #FAB522;
     padding: 1rem 2rem;

@@ -192,6 +192,7 @@
     }
 
     .btn{
+        letter-spacing: 2px;
         color: white;
         background-color: #064635;
         padding: 1rem 3rem;
