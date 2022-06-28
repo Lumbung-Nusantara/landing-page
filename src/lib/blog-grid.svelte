@@ -4,7 +4,7 @@
 
     let blogs = [];
     onMount(async function () {
-        const response = await fetch("http://localhost:1337/api/blogs/");
+        const response = await fetch("http://localhost:1337/api/blogs?populate=*");
         const res = await response.json();
         blogs = res.data;
     });
@@ -15,7 +15,8 @@
         {#each blogs as blog}
         <div class="col-4">
             <div class="card">
-                <img src="https://source.unsplash.com/1500x900/?vegetables" class="card-img-top" alt="Blog Media">
+                <!-- <img src="https://source.unsplash.com/1500x900/?vegetables" class="card-img-top" alt="Blog Media"> -->
+                <img src={`http://localhost:1337${blog.attributes.cover.data.attributes.url}`} class="card-img-top" alt="Blog Media">
                 <div class="font-secondary card-body py-4">
                     <a href={'http://localhost:3000/blog/' + blog.id} class="card-title text-uppercase">
                         {blog.attributes.title}
